@@ -4,9 +4,9 @@ def using_concat(array1, array2)
 end
 
 def using_insert(array, element)
-  array.insert(element)
-  return array
+  array.insert(4, element)
+  puts array
 end
 
-
+using_insert([1,2,3,4,5],8 )
 
