@@ -10,7 +10,7 @@ end
 
 def using_uniq(array)
   new_array = array.uniq
-  puts new_array
+  return new_array
 end
 
-using_uniq([1,1,3,3,2,4,5])
+define 
