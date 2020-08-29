@@ -5,8 +5,12 @@ end
 
 def using_insert(array, element)
   array.insert(4, element)
+  return array
+end
+
+def using_uniq(array)
+  array.uniq
   puts array
 end
 
-using_insert([1,2,3,4,5],8 )
-
+using_uniq([1,1,3,3,2,4,5])
